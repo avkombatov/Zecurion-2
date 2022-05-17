@@ -1,0 +1,104 @@
+@media screen and (max-width:1850px) {
+    .center {
+        padding-left: calc(50% - 860px);
+        padding-right: calc(50% - 860px);
+    }
+}
+
+@media screen and (max-width:1750px) {
+    .center {
+        padding-left: calc(50% - 800px);
+        padding-right: calc(50% - 800px);
+    }
+}
+
+@media screen and (max-width:1650px) {
+    .center {
+        padding-left: calc(50% - 760px);
+        padding-right: calc(50% - 760px);
+    }
+}
+
+@media screen and (max-width:1550px) {
+    .center {
+        padding-left: calc(50% - 715px);
+        padding-right: calc(50% - 715px);
+    }
+}
+
+@media screen and (max-width:1440px) {
+    .center {
+        padding-left: calc(50% - 700px);
+        padding-right: calc(50% - 700px);
+    }
+}
+
+@media screen and (max-width:1410px) {
+    .center {
+        padding-left: calc(50% - 620px);
+        padding-right: calc(50% - 620px);
+    }
+}
+
+@media screen and (max-width:1270px) {
+    .center {
+        padding-left: calc(50% - 590px);
+        padding-right: calc(50% - 590px);
+    }
+}
+
+@media screen and (max-width:1200px) {
+    .center {
+        padding-left: calc(50% - 550px);
+        padding-right: calc(50% - 550px);
+    }
+}
+
+@media screen and (max-width:1115px) {
+    .center {
+        padding-left: calc(50% - 500px);
+        padding-right: calc(50% - 500px);
+    }
+}
+
+@media screen and (max-width:1024px) {
+    .center {
+        padding-left: calc(50% - 440px);
+        padding-right: calc(50% - 440px);
+    }
+
+    .top {
+        &__ul {
+            grid-template-columns: repeat(3, 1fr);
+            grid-row-gap: 20px;
+        }
+
+        &__li:nth-child(3) {
+            border: none;
+        }
+    }
+
+    .middle {
+        &__data {
+            height: 400px;
+        }
+
+        &__no-data {
+            padding-top: 200px;
+        }
+    }
+}
+
+@media screen and (max-width:900px) {
+    .center {
+        padding-left: calc(50% - 400px);
+        padding-right: calc(50% - 400px);
+    }
+}
+
+@media screen and (max-width:830px) {
+    .center {
+        padding-left: calc(50% - 350px);
+        padding-right: calc(50% - 350px);
+    }
+}

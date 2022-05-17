@@ -1,0 +1,62 @@
+
+.top {
+    padding-top: 60px;
+
+    &__ul {
+        display: grid;
+        grid-template-columns: repeat(6, 1fr);
+    }
+
+    &__li:not(:last-child) {
+        border-right: 1px solid #DBDAD6;
+        margin-right: 18px;
+    }
+
+    &__block {
+        &-arrow{
+             width: 8px;
+            height: 5px;
+        }
+        &-arrow_pink {
+           fill: $color-1;
+        }
+
+        &-stat {
+            display: flex;
+
+        }
+
+        &-changes {
+            margin-left: 5px;
+        }
+
+        &-title {
+            font-size: 13px;
+            color: #818181;
+            font-weight: bold;
+
+           
+        }
+
+        &-arrow {
+            margin-bottom: 4px;
+        }
+
+        &-number {
+            font-size: 24px;
+            font-weight: bold;
+            &_yellow {
+                color: $color-2;
+            }
+            &_pink{
+                color:$color-1;
+            }
+        }
+
+        &-percent {
+            font-size: 13px;
+            font-weight: 600;
+            margin-top: -10px;
+        }
+    }
+}
