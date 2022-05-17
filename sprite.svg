@@ -1,6 +1,13 @@
-<symbol id="arrow-up" viewBox="0 0 8.000000 5.000000" xmlns="http://www.w3.org/2000/svg">
-<g transform="translate(0.000000,5.000000) scale(0.100000,-0.100000)"
- stroke="none">
-<path d="M20 25 c-11 -13 -8 -15 20 -15 28 0 31 2 20 15 -16 19 -24 19 -40 0z"/>
-</g>
+<svg>
+<symbol id="arrow-up" viewBox="0 0 255 255" xmlns="http://www.w3.org/2000/svg">
+<g id="arrow-drop-up">
+		<polygon points="0,191.25 127.5,63.75 255,191.25 		"/>
+	</g>
 </symbol>
+
+<symbol id="arrow-down" viewBox="0 0 255 255" xmlns="http://www.w3.org/2000/svg">
+<g>
+		<polygon points="0,63.75 127.5,191.25 255,63.75 		"/>
+	</g>
+</symbol>
+</svg>
