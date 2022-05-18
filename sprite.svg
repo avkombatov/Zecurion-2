@@ -1,17 +1,17 @@
-<svg>
-<symbol id="arrow-up" viewBox="0 0 255 255" xmlns="http://www.w3.org/2000/svg">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<symbol id="arrow-up" viewBox="0 0 255 255" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <g id="arrow-drop-up">
 		<polygon points="0,191.25 127.5,63.75 255,191.25 		"/>
 	</g>
 </symbol>
 
-<symbol id="arrow-down" viewBox="0 0 255 255" xmlns="http://www.w3.org/2000/svg">
+<symbol id="arrow-down" viewBox="0 0 255 255" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <g>
 		<polygon points="0,63.75 127.5,191.25 255,63.75 		"/>
 	</g>
 </symbol>
 
-<symbol id="arrow-down-2" viewBox="0 0 284.929 284.929" xmlns="http://www.w3.org/2000/svg">
+<symbol id="arrow-down-2" viewBox="0 0 284.929 284.929" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
  <g>
        <path d="M282.082,76.511l-14.274-14.273c-1.902-1.906-4.093-2.856-6.57-2.856c-2.471,0-4.661,0.95-6.563,2.856L142.466,174.441
 		L30.262,62.241c-1.903-1.906-4.093-2.856-6.567-2.856c-2.475,0-4.665,0.95-6.567,2.856L2.856,76.515C0.95,78.417,0,80.607,0,83.082

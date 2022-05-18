@@ -2,6 +2,7 @@
     margin-top: 40px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 1em;
 
     &__h4 {
         text-transform: uppercase;
@@ -16,7 +17,6 @@ table tr {
 
 .table {
     border-collapse: collapse;
-    width: 593px;
 
     &__th {
         font-size: 12px;
@@ -31,13 +31,7 @@ table tr {
 
     }
 
-    &__td {
-        width: 160px;
-    }
-
     &__name {
-        width: 430px;
-
         &-p {
             width: 430px;
             white-space: nowrap;
@@ -63,7 +57,7 @@ table tr {
 
     &__block-arrow {
         width: 6px;
-        height: 4px;
+        height: 5px;
 
         &_pink {
             fill: $pink-2;
@@ -113,10 +107,11 @@ table tr {
         align-items: center;
         justify-content: end;
     }
-    &__a{
-        color:#A1A1A1;
+
+    &__a {
+        color: #A1A1A1;
     }
-  }
+}
 
 .table-person {
     &__th {
@@ -175,17 +170,45 @@ table tr {
         border: 1px solid $green;
     }
 }
-.table-disc{
-    &_width-1{
+
+.table-disc {
+    &_width-1 {
         width: 200px;
         text-align: left;
     }
-    &_width-2{
+
+    &_width-2 {
         width: 130px;
     }
-    &__th{
-        &_align{
-            text-align: right;
+
+    &__th {
+        &_center {
+            text-align: center;
         }
+
+    }
+
+    &__td {
+        &_center {
+            text-align: left;
+            padding-left: 50px;
+        }
+
+        &_pink {
+            color: $pink-2;
+        }
+
+        &_green {
+            color: $green;
+        }
+        &_gray{
+            color:#A1A1A1;
+        }
+
+        &_small {
+            font-size: 11px;
+            margin-left: 8px;
+        }
+
     }
 }
