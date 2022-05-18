@@ -18,8 +18,8 @@
                     <p class="top__block-title">Всего инцидентов</p>
                     <div class="top__block-stat">
                         <p class="top__block-number">1576</p>
-                        <div class="top__block-changes">
-                            <svg class="top__block-arrow top__block-arrow_pink">
+                        <div class="block-changes">
+                            <svg class="block__arrow top__block-arrow top__block-arrow_pink">
                                 <use xlink:href="sprite.svg#arrow-up"></use>
                             </svg>
                             <p class="top__block-percent">+16%</p>
@@ -32,7 +32,7 @@
                     <p class="top__block-title">Высокая важность</p>
                     <div class="top__block-stat">
                         <p class="top__block-number top__block-number_pink">157</p>
-                        <div class="top__block-changes">
+                        <div class="block-changes">
                             <svg class="top__block-arrow top__block-arrow_pink">
                                 <use xlink:href="sprite.svg#arrow-up"></use>
                             </svg>
@@ -46,7 +46,7 @@
                     <p class="top__block-title ">Средняя важность</p>
                     <div class="top__block-stat">
                         <p class="top__block-number top__block-number_yellow">253</p>
-                        <div class="top__block-changes">
+                        <div class="block-changes">
                             <svg class="top__block-arrow top__block-arrow_pink">
                                 <use xlink:href="sprite.svg#arrow-up"></use>
                             </svg>
@@ -60,7 +60,7 @@
                     <p class="top__block-title">Всего связей</p>
                     <div class="top__block-stat">
                         <p class="top__block-number">88</p>
-                        <div class="top__block-changes">
+                        <div class="block-changes">
                             <svg class="top__block-arrow">
                                 <use xlink:href="sprite.svg#arrow-up"></use>
                             </svg>
@@ -74,7 +74,7 @@
                     <p class="top__block-title">Исходящий трафик</p>
                     <div class="top__block-stat">
                         <p class="top__block-number">653 МБ</p>
-                        <div class="top__block-changes">
+                        <div class="block-changes">
                             <svg class="top__block-arrow">
                                 <use xlink:href="sprite.svg#arrow-down"></use>
                             </svg>
@@ -88,7 +88,7 @@
                     <p class="top__block-title">Входящий трафик</p>
                     <div class="top__block-stat">
                         <p class="top__block-number">476 МБ</p>
-                        <div class="top__block-changes">
+                        <div class="block-changes">
                             <svg class="top__block-arrow">
                                 <use class="test" xlink:href="sprite.svg#arrow-up"></use>
                             </svg>
@@ -103,6 +103,292 @@
         <div class="middle__data">
             <p class="middle__no-data">Данные не обнаружены</p>
         </div>
+    </div>
+    <div class="bottom center">
+        <div class="bottom__block">
+            <h4 class="bottom__h4">пользователи по инцидентам</h4>
+            <table class="table table-person">
+                <tr>
+                    <th class="table__th table-person__th table-person__th_left">Пользователь</th>
+                    <th class="table__th table-person__th table-person__th_right" colspan="3">Инциденты</th>
+                </tr>
+                <tr>
+                    <td class="table__name table-person__name">
+                        <p class="table__name-p">Андрей Иванов</p>
+                    </td>
+                    <td class="table__td table-person__td">
+                        <div class="table-person__data">
+                            <p class="table-person__number">50</p>
+                            <div class="table-person__marker marker_border-pink marker_pink"></div>
+                        </div>
+                    </td>
+                    <td class="table__td table-person__td">
+                        <div class="table-person__data">
+                            <p class="table-person__number">18</p>
+                            <div class="table-person__marker marker_border-orange marker_orange"></div>
+                        </div>
+                    </td>
+                    <td class="table__td table-person__td">
+                        <div class="table-person__data">
+                            <p class="table-person__number">31</p>
+                            <div class="table-person__marker marker_border-green marker_green"></div>
+                        </div>
+                    </td>
+
+                </tr>
+                <tr>
+                    <td class="table__name table-person__name">
+                        <p class="table__name-p">Михаил Вешкин</p>
+                    </td>
+                    <td class="table__td table-person__td">
+                        <div class="table-person__data">
+                            <p class="table-person__number">47</p>
+                            <div class="table-person__marker marker_border-pink marker_pink"></div>
+                        </div>
+                    </td>
+                    <td class="table__td table-person__td">
+                        <div class="table-person__data">
+                            <p class="table-person__number">24</p>
+                            <div class="table-person__marker marker_border-orange marker_orange"></div>
+                        </div>
+                    </td>
+                    <td class="table__td table-person__td">
+                        <div class="table-person__data">
+                            <p class="table-person__number">0</p>
+                            <div class="table-person__marker marker_border-green"></div>
+                        </div>
+                    </td>
+
+                </tr>
+                <tr>
+                    <td class="table__name table-person__name">
+                        <p class="table__name-p">Семен Измайлов</p>
+                    </td>
+                    <td class="table__td table-person__td">
+                        <div class="table-person__data">
+                            <p class="table-person__number">32</p>
+                            <div class="table-person__marker marker_border-pink marker_pink"></div>
+                        </div>
+                    </td>
+                    <td class="table__td table-person__td">
+                        <div class="table-person__data">
+                            <p class="table-person__number">0</p>
+                            <div class="table-person__marker marker_border-orange"></div>
+                        </div>
+                    </td>
+                    <td class="table__td table-person__td">
+                        <div class="table-person__data">
+                            <p class="table-person__number">12</p>
+                            <div class="table-person__marker marker_border-green marker_green"></div>
+                        </div>
+                    </td>
+
+                </tr>
+                <tr>
+                    <td class="table__name table-person__name">
+                        <p class="table__name-p">Николай Островский</p>
+                    </td>
+                    <td class="table__td table-person__td">
+                        <div class="table-person__data">
+                            <p class="table-person__number">11</p>
+                            <div class="table-person__marker marker_border-pink marker_pink"></div>
+                        </div>
+                    </td>
+                    <td class="table__td table-person__td">
+                        <div class="table-person__data">
+                            <p class="table-person__number">7</p>
+                            <div class="table-person__marker marker_border-orange marker_orange"></div>
+                        </div>
+                    </td>
+                    <td class="table__td table-person__td">
+                        <div class="table-person__data">
+                            <p class="table-person__number">0</p>
+                            <div class="table-person__marker marker_border-green"></div>
+                        </div>
+                    </td>
+
+                </tr>
+                <tr>
+                    <td class="table__name table-person__name">
+                        <p class="table__name-p">Константин Константинопольский</p>
+                    </td>
+                    <td class="table__td table-person__td">
+                        <div class="table-person__data">
+                            <p class="table-person__number">0</p>
+                            <div class="table-person__marker marker_border-pink"></div>
+                        </div>
+                    </td>
+                    <td class="table__td table-person__td">
+                        <div class="table-person__data">
+                            <p class="table-person__number">0</p>
+                            <div class="table-person__marker marker_border-orange"></div>
+                        </div>
+                    </td>
+                    <td class="table__td table-person__td">
+                        <div class="table-person__data">
+                            <p class="table-person__number">8</p>
+                            <div class="table-person__marker marker_border-green marker_green"></div>
+                        </div>
+                    </td>
+
+                </tr>
+                <tr>
+                    <td class="table__name table-person__name">
+                        <p class="table__name-p">Александр Овчинников</p>
+                    </td>
+                    <td class="table__td table-person__td">
+                        <div class="table-person__data">
+                            <p class="table-person__number">0</p>
+                            <div class="table-person__marker marker_border-pink"></div>
+                        </div>
+                    </td>
+                    <td class="table__td table-person__td">
+                        <div class="table-person__data">
+                            <p class="table-person__number">13</p>
+                            <div class="table-person__marker marker_border-orange marker_orange"></div>
+                        </div>
+                    </td>
+                    <td class="table__td table-person__td">
+                        <div class="table-person__data">
+                            <p class="table-person__number">7</p>
+                            <div class="table-person__marker marker_border-green marker_green"></div>
+                        </div>
+                    </td>
+
+                </tr>
+
+            </table>
+        </div>
+        <div class="bottom__block">
+            <h4 class="bottom__h4">категории сайтов</h4>
+            <table class="table table-categ">
+                <tr>
+                    <th class="table__th table-categ__th table-categ__th_left"><a class="table-categ__a" href="#">
+                            Категория
+                            <svg class="table__arrow-categ">
+                                <use xlink:href="sprite.svg#arrow-down-2"></use>
+                            </svg></th>
+                    </a>
+                    <th class="table__th table-categ__th table-categ__th_right">Количество инцидентов</th>
+                </tr>
+                <tr>
+                    <td class="table__name">
+                        <p class="table__name-p">Поисковики</p>
+                    </td>
+                    <td class="table__td table-categ__td">
+                        <div class="table-categ__data">
+                            <p class="table-categ__number">1257</p>
+                            <div class="block-changes table__block-changes">
+                                <svg class="block__arrow table__block-arrow table__block-arrow_pink">
+                                    <use xlink:href="sprite.svg#arrow-up"></use>
+                                </svg>
+                                <p class="table__block-percent table__block-percent_color">+3%</p>
+                            </div>
+
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="table__name">
+                        <p class="table__name-p">Новостные порталы</p>
+                    </td>
+                    <td class="table__td table-categ__td">
+                        <div class="table-categ__data">
+                            <p class="table-categ__number">1257</p>
+                            <div class="block-changes table__block-changes">
+                                <svg class="block__arrow table__block-arrow table__block-arrow_green">
+                                    <use xlink:href="sprite.svg#arrow-down"></use>
+                                </svg>
+                                <p class="table__block-percent table__block-percent_color">-2.1%</p>
+                            </div>
+
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="table__name">
+                        <p class="table__name-p">Развлекательные</p>
+                    </td>
+                    <td class="table__td table-categ__td">
+                        <div class="table-categ__data">
+                            <p class="table-categ__number">987</p>
+                            <div class="block-changes table__block-changes">
+                                <svg class="block__arrow table__block-arrow table__block-arrow_pink">
+                                    <use xlink:href="sprite.svg#arrow-up"></use>
+                                </svg>
+                                <p class="table__block-percent table__block-percent_color">+7%</p>
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="table__name">
+                        <p class="table__name-p">Категория с длинным названием, которое обрезается по ширине</p>
+                    </td>
+                    <td class="table__td table-categ__td">
+                        <div class="table-categ__data">
+                            <p class="table-categ__number">596</p>
+                            <div class="block-changes table__block-changes">
+                                <svg class="block__arrow table__block-arrow table__block-arrow_green">
+                                    <use xlink:href="sprite.svg#arrow-down"></use>
+                                </svg>
+                                <p class="table__block-percent table__block-percent_color">-3%</p>
+                            </div>
+
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="table__name">
+                        <p class="table__name-p">Игры</p>
+                    </td>
+                    <td class="table__td table-categ__td">
+                        <div class="table-categ__data">
+                            <p class="table-categ__number">431</p>
+                            <div class="block-changes table__block-changes">
+                                <svg class="block__arrow table__block-arrow table__block-arrow_pink">
+                                    <use xlink:href="sprite.svg#arrow-up"></use>
+                                </svg>
+                                <p class="table__block-percent table__block-percent_color">+1%</p>
+                            </div>
+
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="table__name">
+                        <p class="table__name-p">Форумы</p>
+                    </td>
+                    <td class="table__td table-categ__td">
+                        <div class="table-categ__data">
+                            <p class="table-categ__number">147</p>
+                            <div class="block-changes table__block-changes">
+                                <svg class="block__arrow table__block-arrow table__block-arrow_pink">
+                                    <use xlink:href="sprite.svg#arrow-up"></use>
+                                </svg>
+                                <p class="table__block-percent table__block-percent_color">+2%</p>
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <div class="bottom__block">
+            <h4 class="bottom__h4">дисциплина</h4>
+            <table class="table table-disc">
+                <tr>
+                    <th class="table__th table-disc_width-1 table-disc__th table-disc__th_left">
+                        Дата</th>
+                    <th class="table__th table-disc_width-2 table-disc__th table-disc__th_left">
+                        Приход</th>
+                    <th class="table__th table-disc_width-2 table-disc__th table-disc__th_left">
+                        Уход</th>
+                    <th class="table__th table-disc_width-2 table-disc__th table-disc__th_align">
+                        Рабочее время</th>
+                </tr>
+            </table>
+        </div>
+
     </div>
 </body>
 
